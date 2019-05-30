@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
--include device/bq/msm8916-common/BoardConfigCommon.mk
+include device/bq/msm8916-common/BoardConfigCommon.mk
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
@@ -50,4 +50,4 @@ WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_NAME := "wlan"
 
 # Inherit from the proprietary version
--include vendor/bq/vegetalte/BoardConfigVendor.mk
+include vendor/bq/vegetalte/BoardConfigVendor.mk
